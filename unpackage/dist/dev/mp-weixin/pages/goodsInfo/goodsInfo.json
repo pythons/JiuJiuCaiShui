@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "工商类",
+  "usingComponents": {
+    "u-parse": "/components/gaoyia-parse/parse",
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker"
+  }
+}

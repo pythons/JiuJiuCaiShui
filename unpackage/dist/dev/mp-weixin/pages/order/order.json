@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单",
+  "usingComponents": {
+    "jj-order-item": "/components/jj-order-item",
+    "jj-order-goods": "/components/jj-order-goods"
+  }
+}

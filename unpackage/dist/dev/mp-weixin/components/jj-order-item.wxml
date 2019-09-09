@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['event',['$event']]]]]}}" class="order_item" bindtap="__e"><block wx:if="{{isNew==0}}">{{''+name+''}}<text>{{"税号："+number}}</text></block><block wx:else>新注册</block></view>

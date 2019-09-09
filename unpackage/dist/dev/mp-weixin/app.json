@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pickerTest/pickerTest",
+    "pages/goodsInfo/goodsInfo",
+    "pages/order_info/order_info",
+    "pages/order/order",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/new_login/new_login",
+    "pages/search/search",
+    "pages/order_dzl/order_dzl",
+    "pages/order_info_dzl/order_info_dzl",
+    "pages/gsl/gsl",
+    "pages/order_goods_info/order_goods_info",
+    "pages/order_types/order_types",
+    "pages/order_sbl/order_sbl",
+    "pages/order_info_sbl/order_info_sbl",
+    "pages/goodsList/goodsList",
+    "pages/company_list/company_list",
+    "pages/company_info/company_info",
+    "pages/order_cpl/order_cpl",
+    "pages/certificates_list/certificates_list",
+    "pages/certificates_info/certificates_info",
+    "pages/records/records",
+    "pages/information/information",
+    "pages/statute/statute",
+    "pages/school/school",
+    "pages/company_profile/company_profile"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "九久财税",
+    "navigationBarBackgroundColor": "#03affb",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#00b0fc",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "static/order.png",
+        "selectedIconPath": "static/order_active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

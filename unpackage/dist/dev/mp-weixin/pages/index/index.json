@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "九久财税",
+  "usingComponents": {
+    "jj-goods-item": "/components/jj-goods-item"
+  }
+}

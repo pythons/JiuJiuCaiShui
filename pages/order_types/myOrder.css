@@ -1,0 +1,74 @@
+.page{
+	height: 100vh;
+}
+.uni-swiper-tab{
+	height: 102upx;
+	line-height: 0;
+	border-bottom: solid 1px #EEEEEE;
+}
+.swiper-tab-list{
+	width: calc(100% / 4);
+	font-size: 24.17upx;
+	color: #333333;
+	height: 100upx;
+	line-height: 100upx;
+}
+.swiper-tab-list.active{
+	color: #00b0fc;
+	border-bottom: solid 2px #00b0fc;
+}
+.swiper-box{
+	height: calc(100% - 104upx);
+	background: #FAFAFA;
+}
+.list{
+	height: 100%;
+	padding: 30upx 36upx;
+	box-sizing: border-box;
+}
+
+
+.order_item{
+	background: #fff;
+	border-radius: 20upx;
+	padding: 22upx 15upx;
+	margin-bottom: 30upx;
+	box-shadow: 0px 0px 9upx 1upx 
+		rgba(0, 0, 0, 0.05);
+}
+.order_item_info{
+	height: 50upx;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 22upx;
+	color: #333333;
+}
+.order_item_info_money{
+	font-size: 26upx;
+}
+.order_item_btns{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20upx;
+}
+.order_btn{
+	width: 120upx;
+	height: 40upx;
+	border-radius: 10upx;
+	border: solid 1px #999999;
+	color: #999;
+	margin-left: 18upx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22upx;
+}
+.order_btn.green{
+	border: solid 1px #00b0fc;
+	color: #00b0fc;
+}
+.order_btn.black{
+	border: solid 1px #333;
+	color: #333;
+}

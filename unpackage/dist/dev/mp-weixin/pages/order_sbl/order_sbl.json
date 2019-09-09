@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "jj-order-brank": "/components/jj-order-brank"
+  }
+}

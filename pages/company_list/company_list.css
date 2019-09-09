@@ -1,0 +1,141 @@
+.company_list{
+	padding: 43upx 36upx;
+}
+.company_item{
+	width: 678upx;
+	height: 150upx;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 9upx 1upx 
+		rgba(0, 0, 0, 0.05);
+	border-radius: 10upx;
+	margin-bottom: 38upx;
+	padding: 0 26upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.company_item_name{
+	font-size: 22upx;
+	color: #333333;
+}
+.company_item_make{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.item_make{
+	font-size: 20upx;
+	color: #999999;
+	display: flex;
+	align-items: center;
+}
+.check_icon{
+	width: 25upx;
+	height: 25upx;
+	margin-right: 10upx;
+}
+.item_btns{
+	display: flex;
+}
+.item_btn{
+	font-size: 20upx;
+	color: #999999;
+	width: 70upx;
+	height: 30upx;
+	border: solid 1px #999999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 18upx;
+}
+.item_btn.blue{
+	color: #00b0fc;
+	border: solid 1px #00b0fc;
+}
+.item_make.blue{
+	color: #00b0fc;
+}
+
+.add_company{
+	font-size: 24upx;
+	color: #ffffff;
+	width: 260upx;
+	height: 80upx;
+	background-color: #00b0fc;
+	box-shadow: 0px 0px 33upx 2upx 
+		rgba(37, 135, 238, 0.33);
+	border-radius: 40upx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom: 40upx;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.company_popup{
+	width: 678upx;
+	height: 620upx;
+	background-color: #ffffff;
+	border-radius: 20upx;
+	padding: 0 16upx 28upx;
+}
+.company_title{
+	height: 70upx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24upx;
+	color: #000000;
+	border-bottom: solid 1px #f1f1f1;
+}
+.company_info_item{
+	height: 70upx;
+	display: flex;
+	align-items: center;
+	font-size: 24upx;
+	color: #000000;
+	border-bottom: solid 1px #f1f1f1;
+	padding-left: 19upx;
+}
+.company_item_title{
+	width: 100upx;
+	font-size: 20upx;
+	color: #000000;
+}
+.company_item_input{
+	flex: 1;
+	font-size: 20upx;
+	color: #000000;
+}
+.company_submit_btn{
+	width: 400upx;
+	height: 70upx;
+	background-color: #d1d1d1;
+	border-radius: 35upx;
+	margin: 0 auto;
+	margin-top: 30upx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30upx;
+	color: #ffffff;
+}
+
+.company_info_li{
+	height: 80upx;
+	border-radius: 10upx;
+	border: solid 1px #e9e9e9;
+	display: flex;
+	align-items: center;
+	padding: 0 30upx;
+	font-size: 22upx;
+	color: #666;
+	margin-bottom: 25upx;
+}
+.company_info_li_title{
+	font-size: 24upx;
+	color: #000000;
+	width: 120upx;
+}

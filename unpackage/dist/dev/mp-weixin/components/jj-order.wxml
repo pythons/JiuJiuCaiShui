@@ -1,0 +1,1 @@
+<view class="hxm_order"><view class="hxm_order_info"><image class="hxm_order_img" src="{{cover}}"></image><view class="hxm_order_goods">{{''+name+''}}<view class="goods_money">{{"￥"+money}}</view></view></view><view class="hxm_order_number">{{"x"+number}}</view></view>

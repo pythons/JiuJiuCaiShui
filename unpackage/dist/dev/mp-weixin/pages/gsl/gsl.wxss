@@ -1,0 +1,8 @@
+
+.list{
+	height: 100%;
+	padding: 35rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+

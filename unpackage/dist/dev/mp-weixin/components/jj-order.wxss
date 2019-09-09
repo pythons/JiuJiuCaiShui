@@ -1,0 +1,61 @@
+
+.hxm_order{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 141rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.hxm_order_info{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 100%;
+}
+.hxm_order_img{
+	width: 141rpx;
+	height: 141rpx;
+	border-radius: 20rpx;
+	margin-right: 23rpx;
+}
+.hxm_order_goods{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-size: 26rpx;
+	color: #333333;
+	height: 100%;
+}
+.goods_money{
+	font-size: 24rpx;
+	color: #cc1717;
+	margin-top: 20rpx;
+}
+.hxm_order_number{
+	font-size: 22rpx;
+	color: #999999;
+}
+

@@ -1,0 +1,190 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "九久财税"
+			}
+		},
+		{
+		    "path" : "pages/pickerTest/pickerTest",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/goodsInfo/goodsInfo",
+		    "style" : {
+				"navigationBarTitleText": "工商类"
+			}
+		},
+		{
+		    "path" : "pages/order_info/order_info",
+		    "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+		    "path" : "pages/order/order",
+		    "style" : {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+		    "path" : "pages/my/my",
+		    "style" : {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"navigationBarTitleText": "登录"
+			}
+		}
+        ,{
+            "path" : "pages/new_login/new_login",
+            "style" : {
+				"navigationBarTitleText": "新注册"
+			}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationBarTitleText": "搜索"
+			}
+        }
+        ,{
+            "path" : "pages/order_dzl/order_dzl",
+            "style" : {
+				"navigationBarTitleText": "订单"
+			}
+        }
+        ,{
+            "path" : "pages/order_info_dzl/order_info_dzl",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/gsl/gsl",
+            "style" : {
+				"navigationBarTitleText": "工商类"
+			}
+        }
+        ,{
+            "path" : "pages/order_goods_info/order_goods_info",
+            "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/order_types/order_types",
+            "style" : {
+				"navigationBarTitleText": "订单"
+			}
+        }
+        ,{
+            "path" : "pages/order_sbl/order_sbl",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order_info_sbl/order_info_sbl",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goodsList/goodsList",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/company_list/company_list",
+            "style" : {
+				"navigationBarTitleText": "公司信息"
+			}
+        }
+        ,{
+            "path" : "pages/company_info/company_info",
+            "style" : {
+				"navigationBarTitleText": "公司信息"
+			}
+        }
+        ,{
+            "path" : "pages/order_cpl/order_cpl",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/certificates_list/certificates_list",
+            "style" : {
+				"navigationBarTitleText": "证件信息"
+			}
+        }
+        ,{
+            "path" : "pages/certificates_info/certificates_info",
+            "style" : {
+				"navigationBarTitleText": "证件信息"
+			}
+        }
+        ,{
+            "path" : "pages/records/records",
+            "style" : {
+				"navigationBarTitleText": "交易记录"
+			}
+        }
+        ,{
+            "path" : "pages/information/information",
+            "style" : {
+				"navigationBarTitleText": "财税资讯"
+			}
+        }
+        ,{
+            "path" : "pages/statute/statute",
+            "style" : {
+				"navigationBarTitleText": "最新法规"
+			}
+        }
+        ,{
+            "path" : "pages/school/school",
+            "style" : {
+				"navigationBarTitleText": "在线学堂"
+			}
+        }
+        ,{
+            "path" : "pages/company_profile/company_profile",
+            "style" : {
+				"navigationBarTitleText": "公司简介"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "九久财税",
+		"navigationBarBackgroundColor": "#03affb",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#999999",
+		"selectedColor":"#00b0fc",
+		"backgroundColor":"#ffffff",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/home.png",
+				"selectedIconPath":"static/home_active.png"
+			},
+			{
+				"pagePath":"pages/order/order",
+				"text":"订单",
+				"iconPath":"static/order.png",
+				"selectedIconPath":"static/order_active.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/my.png",
+				"selectedIconPath":"static/my_active.png"
+			}
+		]
+	}
+}

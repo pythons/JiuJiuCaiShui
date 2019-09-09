@@ -1,0 +1,241 @@
+.page{
+	padding: 0 36upx 100upx;
+}
+.page_title{
+	height: 80upx;
+	display: flex;
+	align-items: center;
+	font-size: 30upx;
+	color: #333333;
+	padding-left: 29upx;
+}
+
+.order_address{
+	height: 120upx;
+	background-color: #ffffff;
+	border-radius: 20upx;
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 0px 9upx 1upx 
+		rgba(0, 0, 0, 0.05);
+}
+.address_icon{
+	width: 52upx;
+	height: 52upx;
+	margin-right: 35upx;
+	margin-left: 16upx;
+}
+.order_address_info{
+	flex: 1;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-size: 24upx;
+	line-height: 43upx;
+	color: #333333;
+	justify-content: center;
+}
+
+.order_info{
+	background: #fff;
+	padding: 30upx;
+	margin-top: 30upx;
+	border-radius: 20upx;
+	box-shadow: 0px 0px 9upx 1upx 
+		rgba(0, 0, 0, 0.05);
+}
+.order_info_goods{
+	height: 151upx;
+	display: flex;
+	justify-content: space-between;
+}
+.info_goods_leftt{
+	height: 100%;
+	display: flex;
+}
+.goods_img{
+	width: 141upx;
+	height: 141upx;
+	background-color: #c84463;
+	border-radius: 20upx;
+	margin-right: 26upx;
+}
+.goods_info{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.goods_info_name{
+	font-size: 24upx;
+	line-height: 43upx;
+	color: #333333;
+}
+.goods_info_money{
+	font-size: 30upx;
+	line-height: 43upx;
+	color: #cc1717;
+	margin-top: 50upx;
+}
+.goods_btn_main{
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.goods_add_btn{
+	width: 180upx;
+	height: 50upx;
+	border-radius: 25upx;
+	border: solid 1px #e2e2e2;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-right: none;
+	border-left: none;
+}
+.add_btn{
+	width: 50upx;
+	height: 50upx;
+	border-radius: 25upx;
+	border: solid 1px #e2e2e2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 46upx;
+	line-height: 46upx;
+	color: #e2e2e2;
+}
+.goods_number_input{
+	font-size: 28upx;
+	color: #666666;
+	text-align: center;
+	height: 100%;
+	flex: 1;
+}
+.order_li_main{
+	padding-left: 63upx;
+	margin-top: 30upx;
+}
+.order_li{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 58upx;
+}
+.order_li_left{
+	font-size: 22upx;
+	color: #333333;
+	display: flex;
+	align-items: center;
+}
+.order_li_right{
+	font-size: 22upx;
+	color: #333333;
+}
+.order_li_content{
+	color: #999999;
+	margin-left: 25upx;
+}
+.order_description{
+	flex: 1;
+	font-size: 22upx;
+	color: #333;
+	margin-left: 25upx;
+}
+.plac_order{
+	font-size: 22upx;
+	color: #999999;
+}
+.order_count{
+	height: 58upx;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 22upx;
+	color: #999999;
+}
+.count_money{
+	color: #cc1717;
+}
+
+.order_dicture{
+	padding: 24upx;
+	background: #fff;
+	margin-top: 30upx;
+	border-radius: 20upx;
+	box-shadow: 0px 0px 9upx 1upx 
+		rgba(0, 0, 0, 0.05);
+}
+.order_dicture_top{
+	font-size: 30upx;
+	line-height: 30upx;
+	color: #333333;
+	margin-top: 10upx;
+	margin-bottom: 34upx;
+}
+.order_dicture_item{
+	font-size: 24upx;
+	color: #999999;
+	height: 50upx;
+	display: flex;
+	align-items: center;
+}
+
+.order_status{
+	margin-top: 30upx;
+}
+.order_address_info.green{
+	color: #00b0fc;
+}
+
+.order_btns{
+	width: 100%;
+	height: 100upx;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 12upx 1px 
+		rgba(0, 0, 0, 0.04);
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 36upx;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.order_btn_item{
+	width: 120upx;
+	height: 50upx;
+	border-radius: 10upx;
+	border: solid 1px #999999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22upx;
+	line-height: 22upx;
+	color: #999999;
+	margin-left: 18upx;
+}
+.order_btn_item.green{
+	color: #00b0fc;
+	border: solid 1px #00b0fc;
+}
+
+.order_number{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 24upx;
+	padding-right: 20upx;
+}
+.copy_btn{
+	width: 80upx;
+	height: 36upx;
+	border-radius: 10upx;
+	border: solid 1px #00b0fc;
+	font-size: 22upx;
+	line-height: 22upx;
+	color: #00b0fc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

@@ -1,0 +1,17 @@
+
+.content {
+	text-align: center;
+	height: 400rpx;
+}
+.tab{
+	padding:20rpx 0;
+	font-size: 32rpx;
+}
+.tab.active{
+	color:#f00;
+}
+.result{
+	margin-top: 200rpx;
+	font-size: 32rpx;
+}
+

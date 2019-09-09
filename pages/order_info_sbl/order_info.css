@@ -1,0 +1,115 @@
+.order_info{
+	padding: 35upx;
+}
+.order_info_main{
+	padding: 25upx;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 9upx 1px 
+		rgba(0, 0, 0, 0.05);
+	border-radius: 10upx;
+	font-size: 24upx;
+	margin-bottom: 20upx;
+}
+.goods_info{
+	display: flex;
+}
+.goods_img{
+	width: 200upx;
+	height: 150upx;
+	background-color: #ce9898;
+	border-radius: 10upx;
+}
+.goods_info_main{
+	width: calc(100% - 200upx);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 0 30upx;
+}
+.select_company{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.right_icon{
+	width: 15upx;
+	height: 22upx;
+}
+.goods_info_name{
+	font-size: 24upx;
+	color: #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.goods_type{
+	width: 100upx;
+	height: 30upx;
+	background-color: #f1f1f1;
+	border-radius: 15upx;
+	font-size: 20upx;
+	color: #999999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.goods_money{
+	font-size: 22upx;
+	color: #ff0000;
+}
+.goods_info_li{
+	display: flex;
+	justify-content: space-between;
+	height: 60upx;
+	align-items: flex-end;
+	font-size: 24upx;
+}
+
+.money_info_li{
+	height: 80upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 24upx;
+	border-bottom: solid 1px #eee;
+}
+.order_li_input{
+	flex: 1;
+	text-align: right;
+	font-size: 24upx;
+}
+.money_li_img{
+	width: 80upx;
+	height: 45upx;
+}
+.money_info_li:last-child{
+	border:none;
+}
+
+.order_info_name{
+	font-size: 30upx;
+	color: #000000;
+	text-align: center;
+}
+.order_info_content{
+	font-size: 24upx;
+	color: #999999;
+	margin-top: 15upx;
+}
+.order_btn{
+	width: 200upx;
+	height: 80upx;
+	background-color: #00b0fc;
+	box-shadow: 0px 0px 33upx 2upx 
+		rgba(37, 135, 238, 0.33);
+	border-radius: 40upx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24upx;
+	color: #ffffff;
+	margin: 0 auto;
+	margin-top: 100upx;
+	margin-bottom: 25upx;
+}
+

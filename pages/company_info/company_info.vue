@@ -1,0 +1,52 @@
+<template>
+	<view class="page company_list">
+		<view class="company_info_li">
+			<view class="company_info_li_title">公司名称：</view>
+			阿里巴巴（中国）网络技术有限公司
+		</view>
+		<view class="company_info_li">
+			<view class="company_info_li_title">税　　号：</view>
+			91330100799655058B
+		</view>
+		<view class="company_info_li">
+			<view class="company_info_li_title">公司地址：</view>
+			浙江省杭州市滨江区网商路699号
+		</view>
+		<view class="company_info_li">
+			<view class="company_info_li_title">公司电话：</view>
+			0844-464516
+		</view>
+		<view class="company_info_li">
+			<view class="company_info_li_title">开户银行：</view>
+			工商银行
+		</view>
+		<view class="company_info_li">
+			<view class="company_info_li_title">银行账号：</view>
+			16165464634134
+		</view>
+		<view class="add_company" style="width: 400rpx;">生成照片保存到手机</view>
+	</view>
+</template>
+
+<script>
+	import uniPopup from '@/components/uni-popup/uni-popup.vue'
+	export default {
+		data() {
+			return {
+				type:''
+			}
+		},
+		components:{
+			uniPopup
+		},
+		methods: {
+			togglePopup(type) {
+				this.type = type;
+			},
+		}
+	}
+</script>
+
+<style>
+	@import url("../company_list/company_list.css");
+</style>
