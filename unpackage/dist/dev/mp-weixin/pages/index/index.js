@@ -112,7 +112,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var jjGoodsItem = function jjGoodsItem() {return __webpack_require__.e(/*! import() | components/jj-goods-item */ "components/jj-goods-item").then(__webpack_require__.bind(null, /*! ../../components/jj-goods-item.vue */ 198));};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var jjGoodsItem = function jjGoodsItem() {return __webpack_require__.e(/*! import() | components/jj-goods-item */ "components/jj-goods-item").then(__webpack_require__.bind(null, /*! ../../components/jj-goods-item.vue */ 238));};var _default =
 
 
 
@@ -268,6 +268,10 @@ __webpack_require__.r(__webpack_exports__);
       } else if (val == 'zxxt') {
         uni.navigateTo({
           url: '../school/school' });
+
+      } else if (val == 'lxwm') {
+        uni.navigateTo({
+          url: '../company_profile/company_profile' });
 
       }
     } } };exports.default = _default;

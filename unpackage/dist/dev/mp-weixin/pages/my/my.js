@@ -151,6 +151,8 @@ var _default =
           url: '../records/records' });
 
       } else if (val == 'pjxx') {
+        uni.navigateTo({
+          url: '../bill_info/bill_info' });
 
       }
     } } };exports.default = _default;

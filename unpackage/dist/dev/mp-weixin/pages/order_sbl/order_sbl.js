@@ -105,7 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var jjOrderBrank = function jjOrderBrank() {return __webpack_require__.e(/*! import() | components/jj-order-brank */ "components/jj-order-brank").then(__webpack_require__.bind(null, /*! ../../components/jj-order-brank.vue */ 276));};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var jjOrderBrank = function jjOrderBrank() {return __webpack_require__.e(/*! import() | components/jj-order-brank */ "components/jj-order-brank").then(__webpack_require__.bind(null, /*! ../../components/jj-order-brank.vue */ 316));};var _default =
 
 
 

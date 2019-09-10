@@ -154,6 +154,12 @@
 				"navigationBarTitleText": "公司简介"
 			}
         }
+        ,{
+            "path" : "pages/bill_info/bill_info",
+            "style" : {
+				"navigationBarTitleText": "票据信息"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

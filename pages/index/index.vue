@@ -59,7 +59,7 @@
 						<image src="../../static/cwzx_icon.png" class="model_icon"></image>
 					</view>
 				</view>
-				<view class="model_item">
+				<view class="model_item" @click="event('lxwm')">
 					<view class="model_item_title">
 						联系我们
 					</view>
@@ -154,6 +154,10 @@
 				} else if(val=='zxxt'){
 					uni.navigateTo({
 						url:'../school/school'
+					})
+				} else if(val=='lxwm'){
+					uni.navigateTo({
+						url:'../company_profile/company_profile'
 					})
 				}
 			}

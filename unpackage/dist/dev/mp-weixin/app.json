@@ -26,7 +26,8 @@
     "pages/information/information",
     "pages/statute/statute",
     "pages/school/school",
-    "pages/company_profile/company_profile"
+    "pages/company_profile/company_profile",
+    "pages/bill_info/bill_info"
   ],
   "subPackages": [],
   "window": {
@@ -61,5 +62,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap22.json"
 }

@@ -118,7 +118,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uniPopup = function uniPopup() {return __webpack_require__.e(/*! import() | components/uni-popup/uni-popup */ "components/uni-popup/uni-popup").then(__webpack_require__.bind(null, /*! @/components/uni-popup/uni-popup.vue */ 234));};var jjOrderSon = function jjOrderSon() {return __webpack_require__.e(/*! import() | components/jj-order-son */ "components/jj-order-son").then(__webpack_require__.bind(null, /*! ../../components/jj-order-son.vue */ 255));};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uniPopup = function uniPopup() {return __webpack_require__.e(/*! import() | components/uni-popup/uni-popup */ "components/uni-popup/uni-popup").then(__webpack_require__.bind(null, /*! @/components/uni-popup/uni-popup.vue */ 274));};var jjOrderSon = function jjOrderSon() {return __webpack_require__.e(/*! import() | components/jj-order-son */ "components/jj-order-son").then(__webpack_require__.bind(null, /*! ../../components/jj-order-son.vue */ 295));};var _default =
 
 
 
